@@ -21,8 +21,8 @@ app.whenReady().then(() => {
   if (Notification.isSupported()) {
     const notification = new Notification({
       title: 'Hello sir',
-      subtitle: 'welcome to the llogin page',
-      body: 'type your pas and username ',
+      subtitle: 'welcome to the login page',
+      body: 'type your password and username ',
       hasReply: true
     })
 
